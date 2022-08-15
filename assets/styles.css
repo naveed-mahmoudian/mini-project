@@ -23,6 +23,10 @@ body {
     font-size: 3em;
 }
 
+.link-item {
+    padding: 5px;
+}
+
 img {
     height: 400px;
     width: auto;
@@ -35,20 +39,48 @@ img {
     margin-top: 50px;
 }
 
+h2 {
+    border-bottom: 2px solid black;
+}
+
 .form {
     margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 input {
     width: 300px;
-    margin-bottom: 5px;
+    margin: 5px;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+    padding: 5px;
+}
+
+button {
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    padding: 2px;
+    margin: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+button:active {
+    background-color: black;
+    color: white;
 }
 
 .margin-offset {
@@ -65,10 +97,6 @@ input {
 
 .block {
     display: block;
-}
-
-.link-item {
-    padding: 5px;
 }
 
 footer {
